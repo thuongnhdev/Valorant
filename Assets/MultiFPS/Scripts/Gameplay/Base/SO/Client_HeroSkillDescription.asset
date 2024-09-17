@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ec41ae197b7db4e9b6ea0da40ad7c0, type: 3}
+  m_Name: Client_HeroSkillDescription
+  m_EditorClassIdentifier: 
+  param:
+  - IDSkill: 0
+    HeroIdx: 0
+    Description: 'SHROUDED STEP: Equip a shrouded step ability and see its range
+      indicator.'
+  - IDSkill: 1
+    HeroIdx: 0
+    Description: 'PARANOIA: Equip a blinding orb. FIRE to throw it forward.'
+  - IDSkill: 2
+    HeroIdx: 0
+    Description: 'DARK COVER: Equip a shadow orb, entering a phased world to place
+      and target the orbs.'
+  - IDSkill: 3
+    HeroIdx: 0
+    Description: 'FROM THE SHADOWS: Equip a tactical map. Fire to begin teleporting
+      to the selected location. '
+  - IDSkill: 0
+    HeroIdx: 1
+    Description: 'CLOUD BURST: Instanly throw a projectile that expands into a brief
+      vision-blocking cloud on impact with a surface.'
+  - IDSkill: 1
+    HeroIdx: 1
+    Description: 'UPDRAFT: Instanly propel Jett high into the air.'
+  - IDSkill: 2
+    HeroIdx: 1
+    Description: 'TAILWIND: Active to prepare a gust of wind for a limited time.'
+  - IDSkill: 3
+    HeroIdx: 1
+    Description: 'BLADE STORM: Equip a set of highly accurate throwing knives.'
+  - IDSkill: 0
+    HeroIdx: 2
+    Description: 'BOOM BOT: Equip a Boom Bot.'
+  - IDSkill: 1
+    HeroIdx: 2
+    Description: 'BLAST PACK: Instanly throw a Blast Pack that will stick to surfaces.'
+  - IDSkill: 2
+    HeroIdx: 2
+    Description: 'PAINT SHELLS: Equip a cluster grenade.'
+  - IDSkill: 3
+    HeroIdx: 2
+    Description: 'SHOWSTOPPER: Equip a rocket launcher.'
+  - IDSkill: 0
+    HeroIdx: 3
+    Description: 'MOSH PIT: Equip the Demolition Bot. When fired, the Demolition
+      Bot is thrown like a grenade.'
+  - IDSkill: 1
+    HeroIdx: 3
+    Description: 'PARANOIA: Equip the Support Bot. When fired, the Support Bot will
+      send itself forward to find enemies. '
+  - IDSkill: 2
+    HeroIdx: 3
+    Description: 'DIZZY: Equip the Stun Bot. When fired, the Stun Bot will rise into
+      the air.'
+  - IDSkill: 3
+    HeroIdx: 3
+    Description: 'THRASH: Equip a tactical map. Fire to begin teleporting to the
+      selected location. '
+  _dic:
+    _keys: 
+    _values: []

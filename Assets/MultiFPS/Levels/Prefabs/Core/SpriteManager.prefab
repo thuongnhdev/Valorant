@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8986085291052497211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5636122769371610956}
+  - component: {fileID: 4713759913225607325}
+  m_Layer: 0
+  m_Name: SpriteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5636122769371610956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986085291052497211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4713759913225607325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986085291052497211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11c5b4aced912c4a8855df5bf2c4dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconClass:
+  - {fileID: 21300000, guid: 96079c5e2cb4ca84ba2c53d50bda1923, type: 3}
+  - {fileID: 21300000, guid: ede0a251c6023834ba289ea1ec19eda6, type: 3}
+  - {fileID: 21300000, guid: dbf0150581a531e4ebd2ad18276ec07d, type: 3}
+  - {fileID: 21300000, guid: 16d54601d1884064b98274719f0d621b, type: 3}
+  - {fileID: 21300000, guid: 16d54601d1884064b98274719f0d621b, type: 3}
+  - {fileID: 21300000, guid: 16d54601d1884064b98274719f0d621b, type: 3}
+  IconHero:
+  - {fileID: 21300000, guid: 148817bd4cd30ee499bcbc26417d1d49, type: 3}
+  - {fileID: 21300000, guid: 20dbe07a58197ee46a6c096778499006, type: 3}
+  - {fileID: 21300000, guid: 74c3f387524736a4fbfef530945dba02, type: 3}
+  - {fileID: 21300000, guid: 3ff6eecf04f98074fb57ac20ba320c0e, type: 3}
+  - {fileID: 21300000, guid: c363336652f61ed4fb285d84194f99dc, type: 3}
+  - {fileID: 21300000, guid: abfbc21d161cda54ab5892315144bcf1, type: 3}
+  ImgHeros:
+  - {fileID: 21300000, guid: 38f9087b65af6a5418ef6c9fb18d3b94, type: 3}
+  - {fileID: 21300000, guid: 74eec740aa1dcfa47924f85c86e0d817, type: 3}
+  - {fileID: 21300000, guid: 4b29eb90b6533b94ea0d1967c62f0189, type: 3}
+  - {fileID: 21300000, guid: e987152f3830dfe479fd6481ef3fca41, type: 3}
+  - {fileID: 21300000, guid: 7bef2e926a133914f8f0059a947cb3c9, type: 3}
+  - {fileID: 21300000, guid: c7182ee3e75bcc9409c4853fd4d768e3, type: 3}
+  IconSkill1:
+  - {fileID: 21300000, guid: b2f03f4942f98ec4b884e068505a2edd, type: 3}
+  - {fileID: 21300000, guid: 93fc1eecc99b7a64c9baf65f3e3a305b, type: 3}
+  - {fileID: 21300000, guid: 7e3ec283193b9a445a0b36b789a451a4, type: 3}
+  - {fileID: 21300000, guid: 7e3ec283193b9a445a0b36b789a451a4, type: 3}
+  - {fileID: 21300000, guid: 7e3ec283193b9a445a0b36b789a451a4, type: 3}
+  - {fileID: 21300000, guid: 7e3ec283193b9a445a0b36b789a451a4, type: 3}
+  IconSkill2:
+  - {fileID: 21300000, guid: 4901ea879eea72740a9dd323d9306a68, type: 3}
+  - {fileID: 21300000, guid: ff0ac166e097ecc4886cdefe5af9ebca, type: 3}
+  - {fileID: 21300000, guid: f4c3e8f28d8da214b8b65297f5b280b8, type: 3}
+  - {fileID: 21300000, guid: f4c3e8f28d8da214b8b65297f5b280b8, type: 3}
+  - {fileID: 21300000, guid: f4c3e8f28d8da214b8b65297f5b280b8, type: 3}
+  - {fileID: 21300000, guid: f4c3e8f28d8da214b8b65297f5b280b8, type: 3}
+  IconSkill3:
+  - {fileID: 21300000, guid: f7ae26be3a5aede4aaa08ddb009bcfd2, type: 3}
+  - {fileID: 21300000, guid: 469b5f51e10800f4dadebdd5dc4b8336, type: 3}
+  - {fileID: 21300000, guid: 208f263b71c6d164f8214300895be65f, type: 3}
+  - {fileID: 21300000, guid: 208f263b71c6d164f8214300895be65f, type: 3}
+  - {fileID: 21300000, guid: 208f263b71c6d164f8214300895be65f, type: 3}
+  - {fileID: 21300000, guid: 208f263b71c6d164f8214300895be65f, type: 3}
+  IconSkill4:
+  - {fileID: 21300000, guid: 599e6cdf4e4b3da4e82b9fd716253178, type: 3}
+  - {fileID: 21300000, guid: 599da566fe25a984a84bdffb9a6a51db, type: 3}
+  - {fileID: 21300000, guid: a03525bde30b22a4c974546090ec14f3, type: 3}
+  - {fileID: 21300000, guid: a03525bde30b22a4c974546090ec14f3, type: 3}
+  - {fileID: 21300000, guid: a03525bde30b22a4c974546090ec14f3, type: 3}
+  - {fileID: 21300000, guid: a03525bde30b22a4c974546090ec14f3, type: 3}
+  IconSkill5: []

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e689383b7702bc4bb5146c0e9091325, type: 3}
+  m_Name: Client_DataHero
+  m_EditorClassIdentifier: 
+  param:
+  - Idx: 1
+    Name: Omen
+    RoleCategory: 0
+    IsLock: 0
+    AssetIndex: 0
+  - Idx: 2
+    Name: Jett
+    RoleCategory: 0
+    IsLock: 0
+    AssetIndex: 1
+  - Idx: 3
+    Name: Raze
+    RoleCategory: 0
+    IsLock: 0
+    AssetIndex: 2
+  - Idx: 4
+    Name: Gekko
+    RoleCategory: 0
+    IsLock: 0
+    AssetIndex: 3
+  - Idx: 5
+    Name: Clove
+    RoleCategory: 0
+    IsLock: 1
+    AssetIndex: 4
+  - Idx: 6
+    Name: BrimStone
+    RoleCategory: 0
+    IsLock: 1
+    AssetIndex: 5
+  _dic:
+    _keys: 0100000002000000
+    _values:
+    - Idx: 1
+      Name: 
+      RoleCategory: 0
+      IsLock: 0
+      AssetIndex: 0
+    - Idx: 2
+      Name: 
+      RoleCategory: 0
+      IsLock: 0
+      AssetIndex: 0
